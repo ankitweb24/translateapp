@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Translate App</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h3>Translate App</h3>
+      <div class="select_code">
+        <select name="" id=""></select>
+        <i class="fa fa-exchange" aria-hidden="true"></i>
+        <select name="" id=""></select>
+      </div>
+      <div class="text_input">
+        <textarea
+          class="from_text"
+          placeholder="Enter Text"
+          spellcheck="false"
+        ></textarea>
+        <textarea
+          class="to_text"
+          placeholder="translation"
+          spellcheck="false"
+          readonly
+          disabled
+        ></textarea>
+      </div>
+      <div class="icons">
+        <div class="left_icon">
+          <i id="from" class="iconsRoom fa fa-volume-up" aria-hidden="true"></i>
+          <i id="from" class="iconsRoom fa fa-clone" aria-hidden="true"></i>
+        </div>
+        <div class="right_icon">
+          <i id="to" class="iconsRoom fa fa-volume-up" aria-hidden="true"></i>
+          <i id="to" class="iconsRoom fa fa-clone" aria-hidden="true"></i>
+        </div>
+      </div>
+      <button class="translate">Translate Text</button>
+    </div>
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
